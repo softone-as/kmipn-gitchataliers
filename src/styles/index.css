@@ -9,6 +9,11 @@ body {
 	padding-bottom: 70px;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .btn-transaction,
 #tableTab .nav-link,
 .nav-input,
@@ -291,181 +296,6 @@ aside #toggle-navbar {
 	color: #7e8cac;
 }
 
-.transaction-row {
-	margin-top: 40px;
-}
-.transaction-table {
-	background: #fff;
-	border-radius: 16px;
-	position: relative;
-	opacity: 1;
-	top: 0;
-	left: 0;
-	transition: all 0.7s ease-in-out;
-	-webkit-transition: all 0.7s ease-in-out;
-}
-.transaction-table.active {
-	position: relative;
-	opacity: 1;
-}
-.transaction-table.single {
-	position: relative;
-	opacity: 1;
-}
-.transaction-table th,
-.transaction-table td {
-	min-width: 120px;
-}
-@media (min-width: 768px) {
-	.transaction-table th,
-	.transaction-table td {
-		min-width: 0;
-	}
-}
-.transaction-table th {
-	width: 23%;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	color: #0c145a;
-}
-.transaction-table th:first-child {
-	width: auto;
-}
-@media (min-width: 992px) {
-	.transaction-table th:first-child {
-		width: 50%;
-	}
-}
-.transaction-table th.status-header {
-	width: 10%;
-	padding: 0px 10px 0px 0px;
-}
-@media (min-width: 768px) {
-	.transaction-table th.status-header {
-		padding: 10px 30px 10px 20px;
-	}
-}
-.transaction-table th.status-header:not(:last-child) {
-	padding: 10px 30px 10px 0;
-}
-.transaction-table th.action-header,
-.transaction-table td.action {
-	width: 5%;
-}
-@media (min-width: 576px) {
-	.transaction-table th:not(:first-child),
-	.transaction-table th:not(:last-child),
-	.transaction-table td:not(:first-child),
-	.transaction-table td:not(:last-child) {
-		padding-right: 50px;
-	}
-}
-@media (min-width: 768px) {
-	.transaction-table th:not(:first-child),
-	.transaction-table th:not(:last-child),
-	.transaction-table td:not(:first-child),
-	.transaction-table td:not(:last-child) {
-		padding-right: 50px;
-	}
-}
-@media (min-width: 992px) {
-	.transaction-table th:not(:first-child),
-	.transaction-table th:not(:last-child),
-	.transaction-table td:not(:first-child),
-	.transaction-table td:not(:last-child) {
-		padding-right: 60px;
-	}
-}
-.transaction-table th.action-header,
-.transaction-table td.action {
-	padding-right: 0;
-}
-.transaction-table td {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 24px;
-	text-align: center;
-	color: #0c145a;
-	overflow: hidden;
-}
-.transaction-table td.status {
-	width: 5%;
-	padding: 10px 30px 10px 0px;
-}
-.transaction-table td.status span {
-	float: left;
-}
-@media (min-width: 768px) {
-	.transaction-table td.status {
-		width: 8%;
-	}
-}
-.transaction-table td.action {
-	width: 5%;
-	padding: 0px;
-}
-@media (min-width: 768px) {
-	.transaction-table td.action {
-		padding: 0 30px;
-	}
-}
-.transaction-table td.status,
-.transaction-table td.action {
-	vertical-align: middle;
-}
-.transaction-table td span {
-	position: relative;
-	text-align: center;
-	margin: 0 auto;
-}
-.transaction-table td span.pending::before {
-	color: #febd57;
-}
-.transaction-table td span.success::before {
-	color: #1abc9c;
-}
-.transaction-table td span.failed::before {
-	color: #fe5761;
-}
-.transaction-table td span::before {
-	content: '.';
-	color: black;
-	text-align: end;
-	line-height: 0px;
-	font-size: 45px;
-	margin-right: 5px;
-	border-radius: 50%;
-}
-.transaction-table th:first-child {
-	padding: 20px 30px;
-}
-.transaction-table td:first-child {
-	padding: 10px 0px 10px 30px;
-}
-.transaction-table th:not(:first-child) {
-	text-align: center;
-}
-.transaction-img {
-	width: 80px;
-	height: 60px;
-	border-radius: 15px;
-	margin-right: 16px;
-}
-.transaction-game {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: start;
-	color: #0c145a;
-}
-.transaction-type {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 18px;
-	color: #7e8cac;
-}
-
 .status-light {
 	width: 6px;
 	height: 6px;
@@ -483,7 +313,6 @@ aside #toggle-navbar {
 
 #tableTab {
 	padding: 0px;
-	padding-top: 30px;
 	padding-bottom: 20px;
 	border: none;
 }

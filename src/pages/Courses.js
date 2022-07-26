@@ -1,7 +1,7 @@
 import ClassList from '../components/Class/ClassList';
 import NavTabClass from '../components/Class/NavTabClass';
 
-import { data } from './../data/index.js';
+import { data } from '../data/dummy.js';
 
 const Courses = () => {
 	const { classes } = data;

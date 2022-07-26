@@ -1,6 +1,6 @@
 const HeaderTitle = ({ title }) => {
 	return (
-		<div className='category-title col-12'>
+		<div className='category-title col-12 mb-4'>
 			<svg
 				width='21'
 				height='26'

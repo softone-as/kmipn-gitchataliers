@@ -2,7 +2,7 @@ import HeaderTitle from '../../components/HeaderTitle';
 import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title }) => {
 	return (
 		<div className='row'>
 			<Sidebar />
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
 				<Navbar />
 				<div className='content'>
 					<div className='row'>
-						<HeaderTitle title={'Test Aja'} />
+						{title ? <HeaderTitle title={title} /> : null}
 						{children}
 					</div>
 				</div>

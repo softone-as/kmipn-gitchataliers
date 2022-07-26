@@ -30,7 +30,7 @@ const ClassItem = ({ image, students, duration, title, author, imgAuthor }) => {
 								/>
 							</svg>
 
-							<span>{students}</span>
+							<span>{students} Students</span>
 						</div>
 
 						<div className='time-class'>
