@@ -292,7 +292,7 @@ const upcomingClass = [
 const jobs = [
 	{
 		id: 1,
-		image: '/assets/img/pic-1.png',
+		image: '/assets/img/ui-ux.png',
 		location: 'Jakarta, Indonesia',
 		salary: '6 juta',
 		title: 'Junior UI / UX Designer',
@@ -322,7 +322,7 @@ const jobs = [
 	},
 	{
 		id: 2,
-		image: '/assets/img/pic-1.png',
+		image: '/assets/img/graphic-designer.png',
 		location: 'Jakarta, Indonesia',
 		salary: '6 juta',
 		title: 'Graphic Designer',
@@ -349,7 +349,7 @@ const jobs = [
 	},
 	{
 		id: 3,
-		image: '/assets/img/pic-1.png',
+		image: '/assets/img/frontend.jpg',
 		location: 'Jakarta, Indonesia',
 		salary: '6.5 juta',
 		title: 'Frontend Developer',
@@ -371,7 +371,7 @@ const jobs = [
 	},
 	{
 		id: 4,
-		image: '/assets/img/pic-1.png',
+		image: '/assets/img/backend.jpg',
 		location: 'Jakarta, Indonesia',
 		salary: '6.5 juta',
 		title: 'Backend Developer',
@@ -393,7 +393,7 @@ const jobs = [
 	},
 	{
 		id: 5,
-		image: '/assets/img/pic-1.png',
+		image: '/assets/img/data-engineer.jpg',
 		location: 'Bandung, Indonesia',
 		salary: '6.5 juta',
 		title: 'Data Engineer',
@@ -413,7 +413,7 @@ const jobs = [
 	},
 	{
 		id: 6,
-		image: '/assets/img/pic-1.png',
+		image: '/assets/img/data-scientiest.png',
 		location: 'Bandung, Indonesia',
 		salary: '6.7 juta',
 		title: 'Data Scientist',

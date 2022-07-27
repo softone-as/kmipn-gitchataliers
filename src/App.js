@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CourseDetail from './pages/CourseDetail';
 import Courses from './pages/Courses';
+import EmailPage from './pages/EmailPage';
 import Jobs from './pages/Jobs';
 import JobsDetail from './pages/JobsDetail';
 import Layout from './pages/layout';
@@ -23,6 +24,9 @@ function App() {
 				</Route>
 				<Route path='/job/:id' exact>
 					<Layout children={<JobsDetail />} />
+				</Route>
+				<Route path='/email/:id' exact>
+					<Layout children={<EmailPage />} />
 				</Route>
 			</Switch>
 		</Router>
