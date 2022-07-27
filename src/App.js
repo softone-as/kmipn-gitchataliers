@@ -12,6 +12,9 @@ function App() {
 				<Route path='/' exact>
 					<Layout children={<Courses />} title={'Pelajaran'} />
 				</Route>
+				<Route path='/class' exact>
+					<Layout children={<Courses />} title={'Pelajaran'} />
+				</Route>
 				<Route path='/class/:id' exact>
 					<Layout children={<CourseDetail />} />
 				</Route>

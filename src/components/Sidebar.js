@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Sidebar() {
 	return (
@@ -27,9 +27,11 @@ export default function Sidebar() {
 				</div>
 
 				<div className='sidebar-item-container mt-3'>
-					<Link
+					<NavLink
 						to='/'
+						activeClassName='active'
 						className='sidebar-item'
+						exact={true}
 						// onclick='toggleActive(this)'
 					>
 						<svg
@@ -47,10 +49,11 @@ export default function Sidebar() {
 						</svg>
 
 						<span>Halaman Utama</span>
-					</Link>
+					</NavLink>
 
-					<Link
-						to='/'
+					<NavLink
+						to='/class'
+						activeClassName='active'
 						className='sidebar-item'
 						// onclick='toggleActive(this)'
 					>
@@ -85,10 +88,11 @@ export default function Sidebar() {
 						</svg>
 
 						<span>Mata Pelajaran</span>
-					</Link>
+					</NavLink>
 
-					<Link
+					<NavLink
 						to='/job'
+						activeClassName='active'
 						className='sidebar-item'
 						// onclick='toggleActive(this)'
 					>
@@ -116,7 +120,7 @@ export default function Sidebar() {
 						</svg>
 
 						<span>Lowongan Pekerjaan</span>
-					</Link>
+					</NavLink>
 				</div>
 			</aside>
 		</div>
