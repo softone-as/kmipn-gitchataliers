@@ -1,13 +1,15 @@
 import { useParams } from 'react-router-dom';
 import JobDetail from '../components/Job/Detail/JobDetail';
+import RecommendJob from '../components/Job/Recommend/RecommendJob';
 
 const JobsDetail = () => {
 	const { id } = useParams();
 
 	return (
-		<div className='col-7'>
+		<>
 			<JobDetail id={id} />
-		</div>
+			<RecommendJob />
+		</>
 	);
 };
 

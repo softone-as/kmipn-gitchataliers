@@ -2,111 +2,215 @@ const classes = [
 	{
 		id: 1,
 		image: '/assets/img/pic-1.png',
-		students: 200,
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
 		duration: '2h 30m',
 		title: 'Belajar Membaca dan Menulis',
+		description:
+			'Belajar membaca dan menulis dari dasar sampai mahir disertai contoh yang kreatif. Materi selalu di-update secara berkala',
 		author: 'John Doe',
-		imgAuthor: '/assets/img/profile.png',
+		contents: [
+			{ 'Mengenal Huruf Vokal': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Huruf Konsonan': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Kosa Kata Dasar': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Belajar Membaca Paragraf': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Belajar Menulis Huruf Vokal': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Belajar Menulis Huruf Konsonan': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+		],
 	},
 	{
 		id: 2,
 		image: '/assets/img/pic-1.png',
-		students: 200,
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
 		duration: '2h 30m',
 		title: 'Pembelajaran Kelas 1 SD',
+		description: 'Modul yang dirancang untuk kelas 1 SD',
 		author: 'John Doe',
-		imgAuthor: '/assets/img/profile.png',
+		contents: [
+			{ 'Mengenal Huruf Vokal': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Huruf Konsonan': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Kosa Kata Dasar': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Belajar Membaca Paragraf': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Belajar Menulis Huruf Vokal': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Belajar Menulis Huruf Konsonan': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+		],
 	},
 	{
 		id: 3,
 		image: '/assets/img/pic-1.png',
-		students: 200,
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
 		duration: '2h 30m',
 		title: 'Pembelajaran Kelas 2 SD',
+		description: 'Modul yang dirancang untuk kelas 2 SD',
 		author: 'John Doe',
-		imgAuthor: '/assets/img/profile.png',
+		contents: [
+			{ 'Mengenal Huruf Vokal': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Huruf Konsonan': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Kosa Kata Dasar': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Belajar Membaca Paragraf': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Belajar Menulis Huruf Vokal': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Belajar Menulis Huruf Konsonan': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+		],
 	},
 	{
 		id: 4,
 		image: '/assets/img/pic-1.png',
-		students: 200,
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
 		duration: '2h 30m',
 		title: 'Basic of Graphic Designer',
+		description: 'Langkah bagi designer profesional',
 		author: 'John Doe',
-		imgAuthor: '/assets/img/profile.png',
+		contents: [
+			{ 'Apa itu Graphic Design': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Prinsip Desain': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Komponen Utama dalam Desain': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Memahami konsep dan teori yang digunakan dalam Design': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Berlatih membuat desain pertama': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Kembangkan desain lebih jauh lagi': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+		],
 	},
 	{
 		id: 5,
 		image: '/assets/img/pic-1.png',
-		students: 200,
-		duration: '2h 30m',
-		title: 'Dasar Dasar Pemrograman',
-		author: 'John Doe',
 		imgAuthor: '/assets/img/profile.png',
+		students: 350,
+		duration: '2h 30m',
+		title: 'Dasar Pemrograman',
+		description: 'Dasar untuk memahami pemrograman',
+		author: 'John Doe',
+		contents: [
+			{ 'Apa itu Algoritma': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Memahami Flowchart': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Pseudocode': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Bagaimana berpikir dalam pemrograman': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Latihan Soal': ['Pengenalan', 'Latihan', 'Ujian'],
+			},
+			{
+				'Implementasi pemrograman dalam problem solving': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+		],
 	},
 	{
 		id: 6,
 		image: '/assets/img/pic-1.png',
-		students: 200,
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
 		duration: '2h 30m',
 		title: 'Belajar Menghitung',
+		description: 'Belajar menghitung dari dasar sampai di luar nalar',
 		author: 'John Doe',
-		imgAuthor: '/assets/img/profile.png',
+		contents: [
+			{ 'Mengenal Angka': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Mengenal Operasi Aritmetika': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Mengenal Pola yang digunakan': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Contoh Soal dengan kehidupan nyata': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Latihan Soal': ['Pengenalan', 'Latihan', 'Ujian'],
+			},
+			{
+				'Implementasi perhitungan dalam kehidupan nyata': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+		],
 	},
 ];
 
 const jobs = [
-	{
-		id: 1,
-		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
-		salary: '6 juta',
-		title: 'Junior UI / UX Designer',
-		company: 'PT Teknologi Kreatif Indonesia',
-	},
-	{
-		id: 2,
-		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
-		salary: '6 juta',
-		title: 'Graphic Designer',
-		company: 'PT Solusi Teknologi',
-	},
-	{
-		id: 3,
-		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
-		salary: '6.5 juta',
-		title: 'Frontend Developer',
-		company: 'PT Mitra Perbangsa',
-	},
-	{
-		id: 4,
-		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
-		salary: '6.5 juta',
-		title: 'Backend Developer',
-		company: 'PT Kaizen Tech',
-	},
-	{
-		id: 5,
-		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
-		salary: '6.5 juta',
-		title: 'Data Engineer',
-		company: 'PT Data Strix',
-	},
-	{
-		id: 6,
-		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
-		salary: '6.7 juta',
-		title: 'Data Scientist',
-		company: 'PT Data Strix',
-	},
-];
-
-const jobDetail = [
 	{
 		id: 1,
 		image: '/assets/img/pic-1.png',
@@ -254,5 +358,4 @@ const jobDetail = [
 export const data = {
 	classes,
 	jobs,
-	jobDetail,
 };
