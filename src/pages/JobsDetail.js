@@ -8,7 +8,7 @@ const JobsDetail = () => {
 	return (
 		<>
 			<JobDetail id={id} />
-			<RecommendJob />
+			<RecommendJob id={id} />
 		</>
 	);
 };

@@ -9,6 +9,7 @@ const classes = [
 		description:
 			'Belajar membaca dan menulis dari dasar sampai mahir disertai contoh yang kreatif. Materi selalu di-update secara berkala',
 		author: 'John Doe',
+		category: 'SD',
 		contents: [
 			{ 'Mengenal Huruf Vokal': ['Pengenalan', 'Latihan', 'Ujian'] },
 			{ 'Mengenal Huruf Konsonan': ['Pengenalan', 'Latihan', 'Ujian'] },
@@ -39,6 +40,7 @@ const classes = [
 		title: 'Pembelajaran Kelas 1 SD',
 		description: 'Modul yang dirancang untuk kelas 1 SD',
 		author: 'John Doe',
+		category: 'SD',
 		contents: [
 			{ 'Mengenal Huruf Vokal': ['Pengenalan', 'Latihan', 'Ujian'] },
 			{ 'Mengenal Huruf Konsonan': ['Pengenalan', 'Latihan', 'Ujian'] },
@@ -69,6 +71,7 @@ const classes = [
 		title: 'Pembelajaran Kelas 2 SD',
 		description: 'Modul yang dirancang untuk kelas 2 SD',
 		author: 'John Doe',
+		category: 'SD',
 		contents: [
 			{ 'Mengenal Huruf Vokal': ['Pengenalan', 'Latihan', 'Ujian'] },
 			{ 'Mengenal Huruf Konsonan': ['Pengenalan', 'Latihan', 'Ujian'] },
@@ -99,6 +102,7 @@ const classes = [
 		title: 'Basic of Graphic Designer',
 		description: 'Langkah bagi designer profesional',
 		author: 'John Doe',
+		category: 'Umum',
 		contents: [
 			{ 'Apa itu Graphic Design': ['Pengenalan', 'Latihan', 'Ujian'] },
 			{ 'Prinsip Desain': ['Pengenalan', 'Latihan', 'Ujian'] },
@@ -141,6 +145,7 @@ const classes = [
 		title: 'Dasar Pemrograman',
 		description: 'Dasar untuk memahami pemrograman',
 		author: 'John Doe',
+		category: 'Umum',
 		contents: [
 			{ 'Apa itu Algoritma': ['Pengenalan', 'Latihan', 'Ujian'] },
 			{ 'Memahami Flowchart': ['Pengenalan', 'Latihan', 'Ujian'] },
@@ -173,6 +178,7 @@ const classes = [
 		title: 'Belajar Menghitung',
 		description: 'Belajar menghitung dari dasar sampai di luar nalar',
 		author: 'John Doe',
+		category: 'SD',
 		contents: [
 			{ 'Mengenal Angka': ['Pengenalan', 'Latihan', 'Ujian'] },
 			{
@@ -205,6 +211,79 @@ const classes = [
 					'Latihan',
 					'Ujian',
 				],
+			},
+		],
+	},
+];
+
+const upcomingClass = [
+	{
+		id: 1,
+		image: '/assets/img/pic-1.png',
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
+		duration: '2h 30m',
+		title: 'Belajar Kimia',
+		description: 'Modul untuk belajar kimia standar nasional',
+		author: 'Guru Kimia',
+		category: 'SMA',
+		contents: [
+			{ 'Apa itu Kimia': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mempelajari Atom': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{ 'Mengenal Senyawa': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Atom dan Senyawa di Kehidupan Nyata': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Reaksi Kimia': ['Pengenalan', 'Latihan', 'Ujian'],
+			},
+			{
+				'Evaluasi Kimia': ['Pengenalan', 'Latihan', 'Ujian'],
+			},
+		],
+	},
+	{
+		id: 2,
+		image: '/assets/img/pic-1.png',
+		imgAuthor: '/assets/img/profile.png',
+		students: 350,
+		duration: '3h 30m',
+		title: 'Belajar Biologi',
+		description: 'Modul untuk belajar biologi standar nasional',
+		author: 'Guru Biologi',
+		category: 'SMP',
+		contents: [
+			{ 'Apa itu Biologi': ['Pengenalan', 'Latihan', 'Ujian'] },
+			{
+				'Mempelajari ekosistem lingkungan': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Taksonomi pada Makhluk Hidup': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Sistem Reproduksi pada Makhluk Hidup': [
+					'Pengenalan',
+					'Latihan',
+					'Ujian',
+				],
+			},
+			{
+				'Monokotil vs Dikotil': ['Pengenalan', 'Latihan', 'Ujian'],
+			},
+			{
+				'Evaluasi Biologi': ['Pengenalan', 'Latihan', 'Ujian'],
 			},
 		],
 	},
@@ -315,7 +394,7 @@ const jobs = [
 	{
 		id: 5,
 		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
+		location: 'Bandung, Indonesia',
 		salary: '6.5 juta',
 		title: 'Data Engineer',
 		company: 'PT Data Strix',
@@ -335,7 +414,7 @@ const jobs = [
 	{
 		id: 6,
 		image: '/assets/img/pic-1.png',
-		location: 'Jakarta, Indonesia',
+		location: 'Bandung, Indonesia',
 		salary: '6.7 juta',
 		title: 'Data Scientist',
 		company: 'PT Data Strix',
@@ -357,5 +436,6 @@ const jobs = [
 
 export const data = {
 	classes,
+	upcomingClass,
 	jobs,
 };

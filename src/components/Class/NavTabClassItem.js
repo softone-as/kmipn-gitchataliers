@@ -2,7 +2,7 @@ const NavTabClassItem = ({ category }) => {
 	return (
 		<li className='nav-item' role='presentation'>
 			<button
-				className='nav-link active'
+				className='nav-link'
 				id='sd-tab'
 				data-bs-toggle='tab'
 				data-bs-target='#sd'
@@ -11,7 +11,7 @@ const NavTabClassItem = ({ category }) => {
 				aria-controls='sd'
 				aria-selected='true'
 			>
-				category
+				{category}
 			</button>
 		</li>
 	);

@@ -2,9 +2,11 @@ import { data } from '../../../data/dummy';
 import DetailClassBody from './DetailClassBody';
 import DetailClassHeader from './DetailClassHeader';
 
-const DetailClass = ({ id }) => {
-	const { classes } = data;
-	const detail = classes.find((course) => course.id === Number(id));
+const DetailClass = ({ id, isUpcomingClass }) => {
+	const { classes, upcomingClass } = data;
+	const detail = isUpcomingClass
+		? upcomingClass.find((course) => course.id === Number(id))
+		: classes.find((course) => course.id === Number(id));
 
 	const contentStudy = detail.contents.map((item) => {
 		let [a] = Object.keys(item);

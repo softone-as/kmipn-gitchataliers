@@ -196,7 +196,7 @@ aside #toggle-navbar {
 .recommend-job,
 .upcoming-class {
 	background-color: #407dd9;
-	padding: 1em;
+	padding: 0.5em;
 	color: #fff;
 	border-top-left-radius: 1rem !important;
 	border-top-right-radius: 1rem !important;

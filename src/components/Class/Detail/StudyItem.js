@@ -1,4 +1,4 @@
-const StudyItem = ({ title, video, id }) => {
+const StudyItem = ({ title, id }) => {
 	return (
 		<div className='accordion-item'>
 			<h2 className='accordion-header' id={`heading${id}`}>
@@ -19,7 +19,9 @@ const StudyItem = ({ title, video, id }) => {
 				aria-labelledby={`heading${id}`}
 				data-bs-parent='#accordionStudy'
 			>
-				<div className='accordion-body'>{video}</div>
+				<div className='accordion-body'>
+					<p>Keterangan tiap section study</p>
+				</div>
 			</div>
 		</div>
 	);

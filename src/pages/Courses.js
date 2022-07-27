@@ -7,7 +7,7 @@ const Courses = () => {
 	const { classes } = data;
 	return (
 		<div className='col-12'>
-			<NavTabClass />
+			<NavTabClass categories={['SD', 'SMP', 'SMA', 'Kerja']} />
 			<ClassList classes={classes} />
 		</div>
 	);

@@ -7,10 +7,9 @@ const NavTabClass = ({ categories }) => {
 			id='tableTab'
 			role='tablist'
 		>
-			{/* {categories.map((category) => (
-				<NavTabClassItem key={category.id} {...category} />
-				))} */}
-			<NavTabClassItem />
+			{categories.map((category, index) => (
+				<NavTabClassItem key={index} category={category} />
+			))}
 		</ul>
 	);
 };
