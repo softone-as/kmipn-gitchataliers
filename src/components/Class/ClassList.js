@@ -1,6 +1,11 @@
 import ClassItem from './ClassItem';
 
-const ClassList = ({ classes }) => {
+const ClassList = ({ classes, category }) => {
+	const filteredClass =
+		category === 'Semua'
+			? classes
+			: classes.filter((course) => course.category === category);
+
 	return (
 		<div className='tab-content' id='tableTabContent'>
 			<div
@@ -10,7 +15,7 @@ const ClassList = ({ classes }) => {
 				aria-labelledby='sd-tab'
 			>
 				<div className='row row-cols-1 row-cols-md-3 g-4'>
-					{classes.map((course) => (
+					{filteredClass.map((course) => (
 						<ClassItem key={course.id} id={course.id} {...course} />
 					))}
 				</div>

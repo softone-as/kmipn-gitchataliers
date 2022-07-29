@@ -1,4 +1,4 @@
-const NavTabClassItem = ({ category }) => {
+const NavTabClassItem = ({ category, setCategory }) => {
 	return (
 		<li className='nav-item' role='presentation'>
 			<button
@@ -10,6 +10,7 @@ const NavTabClassItem = ({ category }) => {
 				role='tab'
 				aria-controls='sd'
 				aria-selected='true'
+				onClick={() => setCategory(category)}
 			>
 				{category}
 			</button>

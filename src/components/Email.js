@@ -1,8 +1,12 @@
 import { data } from '../data/dummy';
 
 export default function Email({ id }) {
-	const { jobs } = data;
-	const jobCurrent = jobs.find((item) => item.id === Number(id));
+	const { jobs, notifications } = data;
+
+	const notifSelected = notifications.find(
+		(notif) => notif.id === Number(id)
+	);
+	const jobCurrent = jobs.find((item) => item.id === notifSelected.idCompany);
 
 	return (
 		<div className='col'>

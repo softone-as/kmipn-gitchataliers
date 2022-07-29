@@ -434,8 +434,39 @@ const jobs = [
 	},
 ];
 
+const notifications = [
+	{
+		id: 1,
+		company: 'PT Teknologi Kreatif Indonesia',
+		idCompany: 1,
+		status: 'applied',
+		content:
+			'Selamat anda lolos tahap seleksi administrasi di PT Teknologi kreatif Indonesia',
+		isRead: false,
+	},
+	{
+		id: 2,
+		company: 'PT Solusi Teknologi',
+		idCompany: 2,
+		status: 'applied',
+		content:
+			'Selamat anda lolos tahap seleksi administrasi di PT Solusi Teknologi',
+		isRead: false,
+	},
+	{
+		id: 3,
+		company: 'PT Mitra Perbangsa',
+		idCompany: 3,
+		status: 'rejected',
+		content:
+			'Mohon maaf anda belum memnuhi kualifikasi di PT Mitra Perbangsa',
+		isRead: false,
+	},
+];
+
 export const data = {
 	classes,
 	upcomingClass,
 	jobs,
+	notifications,
 };

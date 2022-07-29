@@ -8,7 +8,7 @@ const CourseDetail = () => {
 
 	return (
 		<>
-			<DetailClass id={id} isUpcomingclassName={isUpcomingClass} />
+			<DetailClass id={id} isUpcomingClass={isUpcomingClass} />
 			<UpcomingClass />
 		</>
 	);
